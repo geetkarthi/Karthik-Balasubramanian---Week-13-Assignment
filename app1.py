@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 import os
-df = pd.read_csv(os.getcwd() + "\\Downloads\\understat_per_game.csv")
+df = pd.read_csv("understat_per_game.csv")
 st.dataframe(df.sample(100))
 st.caption("Sample of the csv file")
 #How many matches did a specific team win, while they overperfomed their xG for the same match?
