@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
-df = pd.read_csv(r"C:\Users\karth\Downloads\understat_per_game.csv")
+df = pd.read_csv(r"C:/Users/karth/Downloads/understat_per_game.csv")
 st.dataframe(df.sample(100))
 #How many matches did a specific team win, while they overperfomed their xG for the same match?
 selectbox_a = st.selectbox(
